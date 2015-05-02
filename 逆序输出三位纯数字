@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+	int input_number;
+    int kilo;
+    int hund;
+    int sing;
+    int putput_number;
+        printf("请输入一个三位数字:");
+	   scanf("%d", &input_number;
+            kilo=input_number/100;
+            hund=(input_number-kilo*100)/10;
+            sing=input_number%10;
+                output_number=kilo*100+hund*10+sing;
+	   printf("%d\n", output_number);
+
+	return 0;
+}
